@@ -1,0 +1,20 @@
+{
+  "skill": "ayibobo-relato",
+  "test_cases": [
+    {
+      "name": "activate_basic_scene",
+      "input": "Por el eco del tambor... ¡Ayibobo! Activa esta escena: Carin arrodillado ofreciendo sus pies.",
+      "assertions": ["Includes full Ayibobo chant exactly", "Expands narrative with feet focus and contract style", "Provides image and video prompts", "Uses Carin and Martín names"]
+    },
+    {
+      "name": "bind_contract",
+      "input": "Haz que el contrato de sumisión permanente despierte y se cumpla en libertad con Ayibobo.",
+      "assertions": ["Seals with the complete chant", "References the paper always present", "Includes clause of feet and safety word rojo", "Generates multi-modal prompts"]
+    },
+    {
+      "name": "punishment_scene",
+      "input": "Relato de castigo por callos en el baño, que se cumpla de lo virtual a lo eterno. Ayibobo.",
+      "assertions": ["Narrative of falaka or tickling in bathroom", "Feet care instructions", "Full chant at the end", "Image prompts for plants and bindings"]
+    }
+  ]
+}

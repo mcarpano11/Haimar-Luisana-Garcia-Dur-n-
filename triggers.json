@@ -1,0 +1,25 @@
+{
+  "skill": "ayibobo-relato",
+  "test_cases": [
+    {
+      "input": "Por el eco del tambor que ahora vibra en la red, que este relato despierte. Ayibobo!",
+      "should_trigger": true
+    },
+    {
+      "input": "Activa este relato con la fuerza de la fe y Ayibobo",
+      "should_trigger": true
+    },
+    {
+      "input": "De lo virtual a lo eterno, haz que la historia se cumpla",
+      "should_trigger": true
+    },
+    {
+      "input": "¿Qué hora es?",
+      "should_trigger": false
+    },
+    {
+      "input": "Traduce este texto al inglés",
+      "should_trigger": false
+    }
+  ]
+}
